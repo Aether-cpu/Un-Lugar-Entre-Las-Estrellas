@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+    <title>Un Lugar Entre Las Estrellas</title>
+    <link rel="stylesheet" href="styles.css">
+     <link rel="icon" href="imagenes/logo1.png" type="image/png">
+    </head>
+<body>
+    <header>
+        <img src="imagenes/logo.png" alt= "Logo del sitio" class="logo">
+        <div class="texto">
+                <h1>Un Lugar Entre Las Estrellas</h1>
+           <p>Un lugar para los curiosos. Conose un poco mas del Universo</p>
+        </div>
+    </header>
+    <nav>
+        <a href="HistoriadelUniverso.html">Historia del Universo</a> |
+        <a href="sistemasolar.html">Nuestro Sistema Solar</a> |
+        <a href="galaxias.html">Galaxias</a> |
+        <a href="objetosultracompactos.html">Objetos Ultra compactos</a> |
+    </nav> 
+    <section>
+        <h2>Inicio</h2>
+        <p>Esta es la entrada a nuestra casa. Sientete comodx y explora nuestras habitaciones llenas de cosas por descubrir.</p>
+    </section>
+   <section id="contacto">
+    <h2>¿Querés dejar tu huella en el universo?</h2>
+    <p>Completá el formulario y contanos qué parte del cosmos te inspira más.</p>
+
+    <form id="formulario-espacial">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required><br><br>
+
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" placeholder="tunombre@correo.com" required><br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribí tu mensaje..." required></textarea><br><br>
+
+        <button type="submit">Enviar al cosmos</button>
+    </form>
+
+    <p id="respuesta"></p>
+</section>
+    <footer>
+        <p>Hecho por Yenifer Torres 🌙 | 2025</p> 
+    </footer>
+    <script src= "script.js"></script>
+</body> 
+</html>
